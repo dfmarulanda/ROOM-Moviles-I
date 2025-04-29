@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Campo de texto para ingresar nueva tarea -->
+    <EditText
+        android:id="@+id/editTextTarea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese una nueva tarea"
+        android:inputType="text" />
+
+    <!-- Botón para agregar tarea -->
+    <Button
+        android:id="@+id/botonAgregar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Agregar Tarea" />
+
+    <!-- Lista de tareas -->
+    <ListView
+        android:id="@+id/listaTareas"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout> 
